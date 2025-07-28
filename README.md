@@ -1,7 +1,7 @@
-Branch Recommendation System
+Branch Recommendation System:-
 A simple machine learning-based web application that predicts the most suitable engineering branch for a student based on their academic scores and reservation category. This project simulates the branch allocation process used in many Indian engineering colleges.
 
-Project Overview
+Project Overview:-
 In Indian engineering admissions, branch allocation is often based on academic performance in 10th and 12th (PUC) along with the student's reservation category (General, OBC, SC, ST). This project uses a trained Random Forest Classifier to recommend one of the following engineering branches:
 
 Computer Science Engineering (CSE)
@@ -14,7 +14,7 @@ Civil Engineering
 
 Mechanical Engineering (MECH)
 
-How It Works
+How It Works:-
 The user provides the following inputs:
 
 10th CGPA
@@ -29,7 +29,7 @@ The encoded data is passed to a pre-trained machine learning model (RandomForest
 
 The model predicts the most suitable engineering branch based on historical data patterns.
 
-Features
+Features:-
 Takes user input from a React frontend.
 
 Sends input to a FastAPI backend for processing.
@@ -40,7 +40,7 @@ Displays the recommended engineering branch instantly.
 
 Clean UI with real-time communication between frontend and backend.
 
-Tech Stack
+Tech Stack:-
 Python: Core programming language for backend and machine learning logic.
 
 Scikit-learn: Model training and evaluation using Random Forest.
